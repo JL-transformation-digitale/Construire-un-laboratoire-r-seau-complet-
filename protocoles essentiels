@@ -11,3 +11,58 @@
     <!-- Ici vous pourrez ajouter votre tableau et vos images plus tard -->
 </body>
 </html>
+
+<h2>Exemple : Envoi d'un email</h2>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Couche OSI</th>
+    <th>Protocole</th>
+    <th>Équipement</th>
+    <th>Port / Détails</th>
+  </tr>
+  <tr>
+    <td>Application (7)</td>
+    <td>SMTP</td>
+    <td>Client mail, Serveur mail</td>
+    <td>25, 587, 465</td>
+  </tr>
+  <tr>
+    <td>Application (7)</td>
+    <td>IMAP / POP3</td>
+    <td>Serveur mail, Client mail</td>
+    <td>IMAP : 143 / 993, POP3 : 110 / 995</td>
+  </tr>
+  <tr>
+    <td>Transport (4)</td>
+    <td>TCP</td>
+    <td>Client, Serveur, Firewall</td>
+    <td>Connexion orientée</td>
+  </tr>
+  <tr>
+    <td>Réseau (3)</td>
+    <td>IP</td>
+    <td>Routeurs</td>
+    <td>Acheminement des paquets</td>
+  </tr>
+  <tr>
+    <td>Liaison (2)</td>
+    <td>Ethernet / Wi-Fi</td>
+    <td>Switch, Point d'accès</td>
+    <td>Adresse MAC</td>
+  </tr>
+  <tr>
+    <td>Physique (1)</td>
+    <td>Câble / Fibre / Wi-Fi</td>
+    <td>Carte réseau, Routeur</td>
+    <td>Transmission des bits</td>
+  </tr>
+</table>
+
+<style>
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #333; padding: 8px; text-align: left; }
+  th { background-color: #f2f2f2; }
+</style>
+
+<img src="images/schema_email.png" alt="Flux de l'envoi d'email" width="600">
+
